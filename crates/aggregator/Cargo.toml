@@ -1,0 +1,13 @@
+[package]
+name = "clob-aggregator"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+clob-core.workspace = true
+clob-venue.workspace = true
+clob-hyperliquid.workspace = true
+clob-lighter.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+thiserror.workspace = true
