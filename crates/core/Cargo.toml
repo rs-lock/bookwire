@@ -1,0 +1,15 @@
+[package]
+name = "clob-core"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+thiserror.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+criterion.workspace = true
+
+[[bench]]
+name = "book"
+harness = false
