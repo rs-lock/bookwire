@@ -1,0 +1,9 @@
+[package]
+name = "clob-venue"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+clob-core.workspace = true
+async-trait = "0.1"
+thiserror.workspace = true
