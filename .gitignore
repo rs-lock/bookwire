@@ -1,0 +1,8 @@
+/target/
+/misc/
+__pycache__/
+/crates/binance/replay/
+/crates/binance/replayz/
+*.sbe
+/perf.data*
+/perf.txt
