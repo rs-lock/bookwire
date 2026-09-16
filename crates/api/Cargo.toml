@@ -1,0 +1,20 @@
+[package]
+name = "clob-api"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+clob-core.workspace = true
+clob-venue.workspace = true
+clob-aggregator.workspace = true
+clob-hyperliquid.workspace = true
+clob-lighter.workspace = true
+rustls.workspace = true
+tokio = { workspace = true, features = ["rt-multi-thread", "macros", "sync", "time", "signal"] }
+tokio-util.workspace = true
+axum.workspace = true
+metrics.workspace = true
+metrics-exporter-prometheus.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+anyhow.workspace = true
