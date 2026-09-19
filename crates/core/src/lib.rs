@@ -1,6 +1,7 @@
 use std::collections::BTreeMap;
 use std::ops::Sub;
 
+use sha2::{Digest, Sha256};
 
 pub mod traits;
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -45,6 +46,44 @@ pub struct OrderBook {
 }
 
 impl OrderBook {
+    pub fn state_hash(&self) -> [u8; 32] {
+        let mut hasher = Sha256::new();
+
+        hasher.update(b"bids");
+
+        for (price, size) in &self.bids {
+            hasher.update(price.0.to_le_bytes());
+            hasher.update(b":");
+            hasher.update(size.0.to_le_bytes());
+            hasher.update(b";");
+        }
+
+        hasher.update(b"asks");
+
+        for (price, size) in &self.asks {
+            hasher.update(price.0.to_le_bytes());
+            hasher.update(b":");
+            hasher.update(size.0.to_le_bytes());
+            hasher.update(b";");
+        }
+
+        hasher.finalize().into()
+    }
+
+    pub fn top_n(&self, n: usize) -> (Vec<(Price, Size)>, Vec<(Price, Size)>) {
+        let bids = self
+            .bids
+            .iter()
+            .rev()
+            .take(n)
+            .map(|(p, s)| (*p, *s))
+            .collect();
+
+        let asks = self.asks.iter().take(n).map(|(p, s)| (*p, *s)).collect();
+
+        (bids, asks)
+    }
+
     pub fn bids(&self) -> impl DoubleEndedIterator<Item = (&Price, &Size)> {
         self.bids.iter()
     }
