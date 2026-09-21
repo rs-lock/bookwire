@@ -26,3 +26,6 @@ hdrhistogram = "7"
 [dev-dependencies]
 criterion = "0.5"
 
+[[bench]]
+name = "parse"
+harness = false
