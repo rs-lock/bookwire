@@ -6,3 +6,6 @@ __pycache__/
 *.sbe
 /perf.data*
 /perf.txt
+
+# Local console logs; structured benchmark data and raw samples remain public.
+/benchmarks/**/*.log

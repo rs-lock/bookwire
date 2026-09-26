@@ -1,0 +1,11 @@
+{
+  "date_utc": "2026-09-24T22:17:11.287763+00:00",
+  "commands": [
+    "taskset -c 3,7 python3 scripts/orderbook_tail_diagnostics.py --out benchmarks/orderbook-isolated",
+    "taskset -c 3,7 target/release/orderbook-pages > benchmarks/orderbook-isolated/page-diagnostics.json"
+  ],
+  "source_sha256": {
+    "scripts/orderbook_tail_diagnostics.py": "71a96d504583ceb2cda7fe46bd83e8fac1e4460c517d4b16e15ca52940b1bc02",
+    "crates/binance/src/bin/orderbook-pages.rs": "3050cb221a623f55b4fc63f29bd90030a88dd156cb514616e9c8e1f368aff5a3"
+  }
+}

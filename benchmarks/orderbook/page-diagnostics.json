@@ -1,0 +1,2402 @@
+[
+  {
+    "messages_with_faults_or_selected": [
+      {
+        "instrumented_apply_ns": 24567,
+        "message": 1,
+        "minor_faults": 16,
+        "updates": 16
+      },
+      {
+        "instrumented_apply_ns": 14637,
+        "message": 2,
+        "minor_faults": 10,
+        "updates": 22
+      },
+      {
+        "instrumented_apply_ns": 7865,
+        "message": 3,
+        "minor_faults": 5,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 299,
+        "message": 4,
+        "minor_faults": 1,
+        "updates": 19
+      },
+      {
+        "instrumented_apply_ns": 3436,
+        "message": 5,
+        "minor_faults": 2,
+        "updates": 21
+      },
+      {
+        "instrumented_apply_ns": 6398,
+        "message": 6,
+        "minor_faults": 4,
+        "updates": 21
+      },
+      {
+        "instrumented_apply_ns": 5095,
+        "message": 7,
+        "minor_faults": 3,
+        "updates": 44
+      },
+      {
+        "instrumented_apply_ns": 1943,
+        "message": 9,
+        "minor_faults": 1,
+        "updates": 23
+      },
+      {
+        "instrumented_apply_ns": 10438,
+        "message": 10,
+        "minor_faults": 5,
+        "updates": 18
+      },
+      {
+        "instrumented_apply_ns": 4883,
+        "message": 11,
+        "minor_faults": 3,
+        "updates": 20
+      },
+      {
+        "instrumented_apply_ns": 5046,
+        "message": 12,
+        "minor_faults": 3,
+        "updates": 38
+      },
+      {
+        "instrumented_apply_ns": 1976,
+        "message": 13,
+        "minor_faults": 1,
+        "updates": 26
+      },
+      {
+        "instrumented_apply_ns": 3920,
+        "message": 14,
+        "minor_faults": 1,
+        "updates": 146
+      },
+      {
+        "instrumented_apply_ns": 2572,
+        "message": 15,
+        "minor_faults": 1,
+        "updates": 65
+      },
+      {
+        "instrumented_apply_ns": 1875,
+        "message": 16,
+        "minor_faults": 2,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 6893,
+        "message": 17,
+        "minor_faults": 4,
+        "updates": 58
+      },
+      {
+        "instrumented_apply_ns": 2230,
+        "message": 20,
+        "minor_faults": 1,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 32650,
+        "message": 23,
+        "minor_faults": 14,
+        "updates": 584
+      },
+      {
+        "instrumented_apply_ns": 4921,
+        "message": 24,
+        "minor_faults": 2,
+        "updates": 114
+      },
+      {
+        "instrumented_apply_ns": 3676,
+        "message": 28,
+        "minor_faults": 1,
+        "updates": 106
+      },
+      {
+        "instrumented_apply_ns": 2296,
+        "message": 31,
+        "minor_faults": 1,
+        "updates": 36
+      },
+      {
+        "instrumented_apply_ns": 2272,
+        "message": 32,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 2095,
+        "message": 33,
+        "minor_faults": 1,
+        "updates": 36
+      },
+      {
+        "instrumented_apply_ns": 3187,
+        "message": 35,
+        "minor_faults": 1,
+        "updates": 81
+      },
+      {
+        "instrumented_apply_ns": 2247,
+        "message": 41,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 2985,
+        "message": 46,
+        "minor_faults": 1,
+        "updates": 79
+      },
+      {
+        "instrumented_apply_ns": 6691,
+        "message": 47,
+        "minor_faults": 4,
+        "updates": 40
+      },
+      {
+        "instrumented_apply_ns": 4198,
+        "message": 48,
+        "minor_faults": 2,
+        "updates": 48
+      },
+      {
+        "instrumented_apply_ns": 2155,
+        "message": 49,
+        "minor_faults": 1,
+        "updates": 32
+      },
+      {
+        "instrumented_apply_ns": 6148,
+        "message": 55,
+        "minor_faults": 1,
+        "updates": 262
+      },
+      {
+        "instrumented_apply_ns": 2533,
+        "message": 63,
+        "minor_faults": 1,
+        "updates": 40
+      },
+      {
+        "instrumented_apply_ns": 4903,
+        "message": 68,
+        "minor_faults": 2,
+        "updates": 54
+      },
+      {
+        "instrumented_apply_ns": 2735,
+        "message": 75,
+        "minor_faults": 1,
+        "updates": 67
+      },
+      {
+        "instrumented_apply_ns": 2776,
+        "message": 78,
+        "minor_faults": 1,
+        "updates": 51
+      },
+      {
+        "instrumented_apply_ns": 6097,
+        "message": 82,
+        "minor_faults": 1,
+        "updates": 284
+      },
+      {
+        "instrumented_apply_ns": 2901,
+        "message": 91,
+        "minor_faults": 1,
+        "updates": 20
+      },
+      {
+        "instrumented_apply_ns": 2170,
+        "message": 94,
+        "minor_faults": 1,
+        "updates": 32
+      },
+      {
+        "instrumented_apply_ns": 6966,
+        "message": 96,
+        "minor_faults": 1,
+        "updates": 127
+      },
+      {
+        "instrumented_apply_ns": 3121,
+        "message": 98,
+        "minor_faults": 1,
+        "updates": 96
+      },
+      {
+        "instrumented_apply_ns": 2639,
+        "message": 99,
+        "minor_faults": 1,
+        "updates": 53
+      },
+      {
+        "instrumented_apply_ns": 2215,
+        "message": 101,
+        "minor_faults": 1,
+        "updates": 23
+      },
+      {
+        "instrumented_apply_ns": 2325,
+        "message": 102,
+        "minor_faults": 1,
+        "updates": 34
+      },
+      {
+        "instrumented_apply_ns": 28805,
+        "message": 103,
+        "minor_faults": 19,
+        "updates": 46
+      },
+      {
+        "instrumented_apply_ns": 4046,
+        "message": 104,
+        "minor_faults": 2,
+        "updates": 46
+      },
+      {
+        "instrumented_apply_ns": 2484,
+        "message": 105,
+        "minor_faults": 1,
+        "updates": 45
+      },
+      {
+        "instrumented_apply_ns": 5876,
+        "message": 106,
+        "minor_faults": 3,
+        "updates": 52
+      },
+      {
+        "instrumented_apply_ns": 4915,
+        "message": 109,
+        "minor_faults": 1,
+        "updates": 38
+      },
+      {
+        "instrumented_apply_ns": 2565,
+        "message": 111,
+        "minor_faults": 1,
+        "updates": 39
+      },
+      {
+        "instrumented_apply_ns": 2023,
+        "message": 112,
+        "minor_faults": 1,
+        "updates": 25
+      },
+      {
+        "instrumented_apply_ns": 6450,
+        "message": 113,
+        "minor_faults": 2,
+        "updates": 194
+      },
+      {
+        "instrumented_apply_ns": 11759,
+        "message": 114,
+        "minor_faults": 1,
+        "updates": 668
+      },
+      {
+        "instrumented_apply_ns": 3229,
+        "message": 117,
+        "minor_faults": 1,
+        "updates": 89
+      },
+      {
+        "instrumented_apply_ns": 2418,
+        "message": 118,
+        "minor_faults": 1,
+        "updates": 56
+      },
+      {
+        "instrumented_apply_ns": 7260,
+        "message": 119,
+        "minor_faults": 4,
+        "updates": 84
+      },
+      {
+        "instrumented_apply_ns": 6846,
+        "message": 120,
+        "minor_faults": 4,
+        "updates": 43
+      },
+      {
+        "instrumented_apply_ns": 4642,
+        "message": 122,
+        "minor_faults": 2,
+        "updates": 67
+      },
+      {
+        "instrumented_apply_ns": 2673,
+        "message": 123,
+        "minor_faults": 1,
+        "updates": 64
+      },
+      {
+        "instrumented_apply_ns": 2835,
+        "message": 125,
+        "minor_faults": 1,
+        "updates": 65
+      },
+      {
+        "instrumented_apply_ns": 4445,
+        "message": 131,
+        "minor_faults": 2,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 4099,
+        "message": 137,
+        "minor_faults": 2,
+        "updates": 39
+      },
+      {
+        "instrumented_apply_ns": 2661,
+        "message": 145,
+        "minor_faults": 1,
+        "updates": 28
+      },
+      {
+        "instrumented_apply_ns": 4179,
+        "message": 147,
+        "minor_faults": 2,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 3773,
+        "message": 148,
+        "minor_faults": 2,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 2707,
+        "message": 149,
+        "minor_faults": 1,
+        "updates": 53
+      },
+      {
+        "instrumented_apply_ns": 5827,
+        "message": 152,
+        "minor_faults": 3,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 2358,
+        "message": 161,
+        "minor_faults": 1,
+        "updates": 18
+      },
+      {
+        "instrumented_apply_ns": 2443,
+        "message": 175,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 5931,
+        "message": 182,
+        "minor_faults": 1,
+        "updates": 208
+      },
+      {
+        "instrumented_apply_ns": 2588,
+        "message": 183,
+        "minor_faults": 1,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 2563,
+        "message": 194,
+        "minor_faults": 1,
+        "updates": 33
+      },
+      {
+        "instrumented_apply_ns": 2764,
+        "message": 206,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 3033,
+        "message": 217,
+        "minor_faults": 1,
+        "updates": 76
+      },
+      {
+        "instrumented_apply_ns": 2239,
+        "message": 228,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 2612,
+        "message": 230,
+        "minor_faults": 1,
+        "updates": 25
+      },
+      {
+        "instrumented_apply_ns": 2413,
+        "message": 236,
+        "minor_faults": 1,
+        "updates": 19
+      },
+      {
+        "instrumented_apply_ns": 2380,
+        "message": 237,
+        "minor_faults": 1,
+        "updates": 48
+      },
+      {
+        "instrumented_apply_ns": 2382,
+        "message": 240,
+        "minor_faults": 1,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 2355,
+        "message": 242,
+        "minor_faults": 1,
+        "updates": 31
+      },
+      {
+        "instrumented_apply_ns": 5485,
+        "message": 246,
+        "minor_faults": 3,
+        "updates": 33
+      },
+      {
+        "instrumented_apply_ns": 2567,
+        "message": 249,
+        "minor_faults": 1,
+        "updates": 23
+      },
+      {
+        "instrumented_apply_ns": 4391,
+        "message": 251,
+        "minor_faults": 2,
+        "updates": 68
+      },
+      {
+        "instrumented_apply_ns": 2406,
+        "message": 253,
+        "minor_faults": 1,
+        "updates": 48
+      },
+      {
+        "instrumented_apply_ns": 2476,
+        "message": 255,
+        "minor_faults": 1,
+        "updates": 41
+      },
+      {
+        "instrumented_apply_ns": 2090,
+        "message": 256,
+        "minor_faults": 1,
+        "updates": 28
+      },
+      {
+        "instrumented_apply_ns": 6917,
+        "message": 261,
+        "minor_faults": 1,
+        "updates": 30
+      },
+      {
+        "instrumented_apply_ns": 2501,
+        "message": 263,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 2640,
+        "message": 264,
+        "minor_faults": 1,
+        "updates": 21
+      },
+      {
+        "instrumented_apply_ns": 2509,
+        "message": 267,
+        "minor_faults": 1,
+        "updates": 36
+      },
+      {
+        "instrumented_apply_ns": 3149,
+        "message": 271,
+        "minor_faults": 1,
+        "updates": 31
+      },
+      {
+        "instrumented_apply_ns": 4600,
+        "message": 308,
+        "minor_faults": 1,
+        "updates": 68
+      },
+      {
+        "instrumented_apply_ns": 2955,
+        "message": 320,
+        "minor_faults": 1,
+        "updates": 28
+      },
+      {
+        "instrumented_apply_ns": 2651,
+        "message": 329,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 2459,
+        "message": 331,
+        "minor_faults": 1,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 15675,
+        "message": 332,
+        "minor_faults": 1,
+        "updates": 882
+      },
+      {
+        "instrumented_apply_ns": 25786,
+        "message": 333,
+        "minor_faults": 4,
+        "updates": 1271
+      },
+      {
+        "instrumented_apply_ns": 3286,
+        "message": 344,
+        "minor_faults": 1,
+        "updates": 78
+      },
+      {
+        "instrumented_apply_ns": 3195,
+        "message": 347,
+        "minor_faults": 1,
+        "updates": 64
+      },
+      {
+        "instrumented_apply_ns": 6180,
+        "message": 352,
+        "minor_faults": 3,
+        "updates": 67
+      },
+      {
+        "instrumented_apply_ns": 2663,
+        "message": 358,
+        "minor_faults": 1,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 2857,
+        "message": 364,
+        "minor_faults": 1,
+        "updates": 48
+      },
+      {
+        "instrumented_apply_ns": 2570,
+        "message": 369,
+        "minor_faults": 1,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 4068,
+        "message": 374,
+        "minor_faults": 1,
+        "updates": 140
+      },
+      {
+        "instrumented_apply_ns": 2463,
+        "message": 380,
+        "minor_faults": 1,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 2316,
+        "message": 381,
+        "minor_faults": 1,
+        "updates": 39
+      },
+      {
+        "instrumented_apply_ns": 2908,
+        "message": 386,
+        "minor_faults": 1,
+        "updates": 62
+      },
+      {
+        "instrumented_apply_ns": 3645,
+        "message": 428,
+        "minor_faults": 1,
+        "updates": 53
+      },
+      {
+        "instrumented_apply_ns": 2539,
+        "message": 430,
+        "minor_faults": 1,
+        "updates": 47
+      },
+      {
+        "instrumented_apply_ns": 6611,
+        "message": 434,
+        "minor_faults": 1,
+        "updates": 41
+      },
+      {
+        "instrumented_apply_ns": 2498,
+        "message": 436,
+        "minor_faults": 1,
+        "updates": 38
+      },
+      {
+        "instrumented_apply_ns": 2209,
+        "message": 437,
+        "minor_faults": 1,
+        "updates": 28
+      },
+      {
+        "instrumented_apply_ns": 2277,
+        "message": 439,
+        "minor_faults": 1,
+        "updates": 30
+      },
+      {
+        "instrumented_apply_ns": 2345,
+        "message": 441,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 2652,
+        "message": 442,
+        "minor_faults": 1,
+        "updates": 62
+      },
+      {
+        "instrumented_apply_ns": 5236,
+        "message": 444,
+        "minor_faults": 1,
+        "updates": 213
+      },
+      {
+        "instrumented_apply_ns": 2603,
+        "message": 451,
+        "minor_faults": 1,
+        "updates": 30
+      },
+      {
+        "instrumented_apply_ns": 3513,
+        "message": 467,
+        "minor_faults": 1,
+        "updates": 22
+      },
+      {
+        "instrumented_apply_ns": 2342,
+        "message": 474,
+        "minor_faults": 1,
+        "updates": 31
+      },
+      {
+        "instrumented_apply_ns": 3633,
+        "message": 490,
+        "minor_faults": 1,
+        "updates": 45
+      },
+      {
+        "instrumented_apply_ns": 6207,
+        "message": 535,
+        "minor_faults": 1,
+        "updates": 46
+      },
+      {
+        "instrumented_apply_ns": 2823,
+        "message": 543,
+        "minor_faults": 1,
+        "updates": 23
+      },
+      {
+        "instrumented_apply_ns": 3080,
+        "message": 554,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 2809,
+        "message": 564,
+        "minor_faults": 1,
+        "updates": 26
+      },
+      {
+        "instrumented_apply_ns": 3530,
+        "message": 577,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 2659,
+        "message": 599,
+        "minor_faults": 1,
+        "updates": 33
+      },
+      {
+        "instrumented_apply_ns": 2730,
+        "message": 626,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 2924,
+        "message": 635,
+        "minor_faults": 1,
+        "updates": 39
+      },
+      {
+        "instrumented_apply_ns": 5453,
+        "message": 665,
+        "minor_faults": 2,
+        "updates": 103
+      },
+      {
+        "instrumented_apply_ns": 3280,
+        "message": 689,
+        "minor_faults": 1,
+        "updates": 39
+      },
+      {
+        "instrumented_apply_ns": 4293,
+        "message": 705,
+        "minor_faults": 1,
+        "updates": 77
+      },
+      {
+        "instrumented_apply_ns": 3800,
+        "message": 760,
+        "minor_faults": 1,
+        "updates": 18
+      },
+      {
+        "instrumented_apply_ns": 3153,
+        "message": 763,
+        "minor_faults": 1,
+        "updates": 54
+      },
+      {
+        "instrumented_apply_ns": 7869,
+        "message": 792,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 4686,
+        "message": 920,
+        "minor_faults": 1,
+        "updates": 70
+      },
+      {
+        "instrumented_apply_ns": 15707,
+        "message": 1225,
+        "minor_faults": 1,
+        "updates": 847
+      },
+      {
+        "instrumented_apply_ns": 4489,
+        "message": 1267,
+        "minor_faults": 1,
+        "updates": 97
+      },
+      {
+        "instrumented_apply_ns": 3213,
+        "message": 1274,
+        "minor_faults": 1,
+        "updates": 54
+      },
+      {
+        "instrumented_apply_ns": 6964,
+        "message": 1337,
+        "minor_faults": 1,
+        "updates": 185
+      },
+      {
+        "instrumented_apply_ns": 11267,
+        "message": 1447,
+        "minor_faults": 2,
+        "updates": 289
+      },
+      {
+        "instrumented_apply_ns": 4610,
+        "message": 1470,
+        "minor_faults": 1,
+        "updates": 93
+      },
+      {
+        "instrumented_apply_ns": 4365,
+        "message": 1577,
+        "minor_faults": 1,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 4323,
+        "message": 1648,
+        "minor_faults": 1,
+        "updates": 34
+      },
+      {
+        "instrumented_apply_ns": 2994,
+        "message": 1758,
+        "minor_faults": 1,
+        "updates": 25
+      },
+      {
+        "instrumented_apply_ns": 3734,
+        "message": 1924,
+        "minor_faults": 1,
+        "updates": 41
+      },
+      {
+        "instrumented_apply_ns": 3916,
+        "message": 1991,
+        "minor_faults": 1,
+        "updates": 41
+      },
+      {
+        "instrumented_apply_ns": 4080,
+        "message": 2123,
+        "minor_faults": 1,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 2620,
+        "message": 2140,
+        "minor_faults": 1,
+        "updates": 26
+      },
+      {
+        "instrumented_apply_ns": 5613,
+        "message": 2224,
+        "minor_faults": 2,
+        "updates": 43
+      },
+      {
+        "instrumented_apply_ns": 4287,
+        "message": 2304,
+        "minor_faults": 1,
+        "updates": 21
+      },
+      {
+        "instrumented_apply_ns": 4293,
+        "message": 2378,
+        "minor_faults": 1,
+        "updates": 69
+      },
+      {
+        "instrumented_apply_ns": 4587,
+        "message": 2542,
+        "minor_faults": 1,
+        "updates": 22
+      },
+      {
+        "instrumented_apply_ns": 26871,
+        "message": 2813,
+        "minor_faults": 2,
+        "updates": 1263
+      },
+      {
+        "instrumented_apply_ns": 6460,
+        "message": 2815,
+        "minor_faults": 1,
+        "updates": 255
+      },
+      {
+        "instrumented_apply_ns": 2870,
+        "message": 2820,
+        "minor_faults": 1,
+        "updates": 65
+      },
+      {
+        "instrumented_apply_ns": 8208,
+        "message": 2847,
+        "minor_faults": 2,
+        "updates": 130
+      },
+      {
+        "instrumented_apply_ns": 11816,
+        "message": 2997,
+        "minor_faults": 2,
+        "updates": 50
+      },
+      {
+        "instrumented_apply_ns": 5655,
+        "message": 3078,
+        "minor_faults": 1,
+        "updates": 56
+      },
+      {
+        "instrumented_apply_ns": 3871,
+        "message": 3196,
+        "minor_faults": 1,
+        "updates": 26
+      },
+      {
+        "instrumented_apply_ns": 5584,
+        "message": 3371,
+        "minor_faults": 1,
+        "updates": 36
+      },
+      {
+        "instrumented_apply_ns": 5412,
+        "message": 3466,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 5382,
+        "message": 3596,
+        "minor_faults": 1,
+        "updates": 48
+      },
+      {
+        "instrumented_apply_ns": 5137,
+        "message": 3846,
+        "minor_faults": 1,
+        "updates": 46
+      },
+      {
+        "instrumented_apply_ns": 5431,
+        "message": 3991,
+        "minor_faults": 1,
+        "updates": 34
+      },
+      {
+        "instrumented_apply_ns": 3658,
+        "message": 4041,
+        "minor_faults": 1,
+        "updates": 30
+      },
+      {
+        "instrumented_apply_ns": 3347,
+        "message": 4071,
+        "minor_faults": 1,
+        "updates": 30
+      },
+      {
+        "instrumented_apply_ns": 3335,
+        "message": 4100,
+        "minor_faults": 1,
+        "updates": 26
+      },
+      {
+        "instrumented_apply_ns": 3561,
+        "message": 4114,
+        "minor_faults": 1,
+        "updates": 23
+      },
+      {
+        "instrumented_apply_ns": 2916,
+        "message": 4123,
+        "minor_faults": 1,
+        "updates": 18
+      },
+      {
+        "instrumented_apply_ns": 2124,
+        "message": 4124,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 4800,
+        "message": 4190,
+        "minor_faults": 1,
+        "updates": 40
+      },
+      {
+        "instrumented_apply_ns": 2945,
+        "message": 4195,
+        "minor_faults": 1,
+        "updates": 55
+      },
+      {
+        "instrumented_apply_ns": 2897,
+        "message": 4200,
+        "minor_faults": 1,
+        "updates": 46
+      },
+      {
+        "instrumented_apply_ns": 36150,
+        "message": 4213,
+        "minor_faults": 3,
+        "updates": 1801
+      },
+      {
+        "instrumented_apply_ns": 3864,
+        "message": 4219,
+        "minor_faults": 1,
+        "updates": 78
+      },
+      {
+        "instrumented_apply_ns": 3140,
+        "message": 4224,
+        "minor_faults": 1,
+        "updates": 59
+      },
+      {
+        "instrumented_apply_ns": 5397,
+        "message": 4234,
+        "minor_faults": 2,
+        "updates": 77
+      },
+      {
+        "instrumented_apply_ns": 2797,
+        "message": 4242,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 6090,
+        "message": 4274,
+        "minor_faults": 1,
+        "updates": 28
+      },
+      {
+        "instrumented_apply_ns": 3301,
+        "message": 4297,
+        "minor_faults": 1,
+        "updates": 22
+      },
+      {
+        "instrumented_apply_ns": 8015,
+        "message": 4326,
+        "minor_faults": 1,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 2580,
+        "message": 4331,
+        "minor_faults": 1,
+        "updates": 41
+      },
+      {
+        "instrumented_apply_ns": 2696,
+        "message": 4353,
+        "minor_faults": 1,
+        "updates": 28
+      },
+      {
+        "instrumented_apply_ns": 4855,
+        "message": 4432,
+        "minor_faults": 1,
+        "updates": 31
+      },
+      {
+        "instrumented_apply_ns": 3474,
+        "message": 4501,
+        "minor_faults": 1,
+        "updates": 18
+      },
+      {
+        "instrumented_apply_ns": 2819,
+        "message": 4506,
+        "minor_faults": 1,
+        "updates": 31
+      },
+      {
+        "instrumented_apply_ns": 4000,
+        "message": 4530,
+        "minor_faults": 1,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 3536,
+        "message": 4575,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 3506,
+        "message": 4738,
+        "minor_faults": 1,
+        "updates": 41
+      },
+      {
+        "instrumented_apply_ns": 3393,
+        "message": 4959,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 3183,
+        "message": 5037,
+        "minor_faults": 1,
+        "updates": 39
+      },
+      {
+        "instrumented_apply_ns": 2767,
+        "message": 5056,
+        "minor_faults": 1,
+        "updates": 31
+      },
+      {
+        "instrumented_apply_ns": 22641,
+        "message": 5262,
+        "minor_faults": 3,
+        "updates": 1061
+      },
+      {
+        "instrumented_apply_ns": 14231,
+        "message": 5334,
+        "minor_faults": 7,
+        "updates": 48
+      },
+      {
+        "instrumented_apply_ns": 6170,
+        "message": 5509,
+        "minor_faults": 1,
+        "updates": 86
+      },
+      {
+        "instrumented_apply_ns": 4131,
+        "message": 5514,
+        "minor_faults": 2,
+        "updates": 50
+      },
+      {
+        "instrumented_apply_ns": 15571,
+        "message": 5527,
+        "minor_faults": 1,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 2943,
+        "message": 5531,
+        "minor_faults": 1,
+        "updates": 45
+      },
+      {
+        "instrumented_apply_ns": 3952,
+        "message": 5580,
+        "minor_faults": 1,
+        "updates": 50
+      },
+      {
+        "instrumented_apply_ns": 9100,
+        "message": 5850,
+        "minor_faults": 1,
+        "updates": 38
+      },
+      {
+        "instrumented_apply_ns": 6621,
+        "message": 6089,
+        "minor_faults": 2,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 3865,
+        "message": 6427,
+        "minor_faults": 1,
+        "updates": 22
+      },
+      {
+        "instrumented_apply_ns": 3924,
+        "message": 6465,
+        "minor_faults": 1,
+        "updates": 45
+      },
+      {
+        "instrumented_apply_ns": 4552,
+        "message": 6559,
+        "minor_faults": 1,
+        "updates": 25
+      },
+      {
+        "instrumented_apply_ns": 2462,
+        "message": 6561,
+        "minor_faults": 1,
+        "updates": 19
+      },
+      {
+        "instrumented_apply_ns": 4110,
+        "message": 6795,
+        "minor_faults": 1,
+        "updates": 40
+      },
+      {
+        "instrumented_apply_ns": 3924,
+        "message": 6884,
+        "minor_faults": 1,
+        "updates": 47
+      },
+      {
+        "instrumented_apply_ns": 4493,
+        "message": 6923,
+        "minor_faults": 1,
+        "updates": 51
+      },
+      {
+        "instrumented_apply_ns": 4393,
+        "message": 7223,
+        "minor_faults": 1,
+        "updates": 34
+      },
+      {
+        "instrumented_apply_ns": 4485,
+        "message": 7609,
+        "minor_faults": 1,
+        "updates": 22
+      },
+      {
+        "instrumented_apply_ns": 3883,
+        "message": 7836,
+        "minor_faults": 1,
+        "updates": 32
+      },
+      {
+        "instrumented_apply_ns": 4367,
+        "message": 8139,
+        "minor_faults": 1,
+        "updates": 43
+      },
+      {
+        "instrumented_apply_ns": 5035,
+        "message": 8636,
+        "minor_faults": 1,
+        "updates": 21
+      },
+      {
+        "instrumented_apply_ns": 5005,
+        "message": 8767,
+        "minor_faults": 1,
+        "updates": 32
+      },
+      {
+        "instrumented_apply_ns": 4939,
+        "message": 9392,
+        "minor_faults": 1,
+        "updates": 44
+      },
+      {
+        "instrumented_apply_ns": 4474,
+        "message": 9564,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 3560,
+        "message": 9619,
+        "minor_faults": 1,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 4769,
+        "message": 9742,
+        "minor_faults": 1,
+        "updates": 34
+      },
+      {
+        "instrumented_apply_ns": 4834,
+        "message": 9778,
+        "minor_faults": 1,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 5358,
+        "message": 10421,
+        "minor_faults": 1,
+        "updates": 30
+      },
+      {
+        "instrumented_apply_ns": 5162,
+        "message": 10463,
+        "minor_faults": 1,
+        "updates": 28
+      },
+      {
+        "instrumented_apply_ns": 3808,
+        "message": 11038,
+        "minor_faults": 1,
+        "updates": 28
+      },
+      {
+        "instrumented_apply_ns": 4515,
+        "message": 11164,
+        "minor_faults": 1,
+        "updates": 33
+      },
+      {
+        "instrumented_apply_ns": 4353,
+        "message": 11681,
+        "minor_faults": 1,
+        "updates": 32
+      },
+      {
+        "instrumented_apply_ns": 3765,
+        "message": 11847,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 14375,
+        "message": 12060,
+        "minor_faults": 1,
+        "updates": 514
+      },
+      {
+        "instrumented_apply_ns": 5717,
+        "message": 12112,
+        "minor_faults": 1,
+        "updates": 90
+      },
+      {
+        "instrumented_apply_ns": 18694,
+        "message": 12231,
+        "minor_faults": 1,
+        "updates": 1075
+      },
+      {
+        "instrumented_apply_ns": 6264,
+        "message": 12672,
+        "minor_faults": 1,
+        "updates": 218
+      },
+      {
+        "instrumented_apply_ns": 3340,
+        "message": 12693,
+        "minor_faults": 1,
+        "updates": 41
+      },
+      {
+        "instrumented_apply_ns": 5194,
+        "message": 12705,
+        "minor_faults": 1,
+        "updates": 169
+      },
+      {
+        "instrumented_apply_ns": 3016,
+        "message": 12723,
+        "minor_faults": 1,
+        "updates": 67
+      },
+      {
+        "instrumented_apply_ns": 4457,
+        "message": 12770,
+        "minor_faults": 1,
+        "updates": 162
+      },
+      {
+        "instrumented_apply_ns": 3391,
+        "message": 12787,
+        "minor_faults": 1,
+        "updates": 83
+      },
+      {
+        "instrumented_apply_ns": 2877,
+        "message": 12790,
+        "minor_faults": 1,
+        "updates": 72
+      },
+      {
+        "instrumented_apply_ns": 6090,
+        "message": 12855,
+        "minor_faults": 1,
+        "updates": 87
+      },
+      {
+        "instrumented_apply_ns": 5786,
+        "message": 12870,
+        "minor_faults": 2,
+        "updates": 69
+      },
+      {
+        "instrumented_apply_ns": 3467,
+        "message": 12894,
+        "minor_faults": 1,
+        "updates": 41
+      },
+      {
+        "instrumented_apply_ns": 2864,
+        "message": 12915,
+        "minor_faults": 1,
+        "updates": 47
+      },
+      {
+        "instrumented_apply_ns": 3802,
+        "message": 12989,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 3033,
+        "message": 13000,
+        "minor_faults": 1,
+        "updates": 18
+      },
+      {
+        "instrumented_apply_ns": 2364,
+        "message": 13011,
+        "minor_faults": 1,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 2560,
+        "message": 13031,
+        "minor_faults": 1,
+        "updates": 46
+      },
+      {
+        "instrumented_apply_ns": 2733,
+        "message": 13082,
+        "minor_faults": 1,
+        "updates": 20
+      },
+      {
+        "instrumented_apply_ns": 4180,
+        "message": 13165,
+        "minor_faults": 1,
+        "updates": 55
+      },
+      {
+        "instrumented_apply_ns": 2679,
+        "message": 13178,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 5275,
+        "message": 13223,
+        "minor_faults": 1,
+        "updates": 23
+      },
+      {
+        "instrumented_apply_ns": 6074,
+        "message": 13308,
+        "minor_faults": 1,
+        "updates": 158
+      },
+      {
+        "instrumented_apply_ns": 3881,
+        "message": 13370,
+        "minor_faults": 1,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 3999,
+        "message": 13441,
+        "minor_faults": 1,
+        "updates": 18
+      },
+      {
+        "instrumented_apply_ns": 14618,
+        "message": 13512,
+        "minor_faults": 1,
+        "updates": 769
+      },
+      {
+        "instrumented_apply_ns": 8251,
+        "message": 13603,
+        "minor_faults": 1,
+        "updates": 45
+      },
+      {
+        "instrumented_apply_ns": 4265,
+        "message": 13728,
+        "minor_faults": 1,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 3721,
+        "message": 13772,
+        "minor_faults": 1,
+        "updates": 73
+      },
+      {
+        "instrumented_apply_ns": 12295,
+        "message": 13834,
+        "minor_faults": 1,
+        "updates": 594
+      },
+      {
+        "instrumented_apply_ns": 18266,
+        "message": 13839,
+        "minor_faults": 10,
+        "updates": 128
+      },
+      {
+        "instrumented_apply_ns": 19081,
+        "message": 13859,
+        "minor_faults": 1,
+        "updates": 1138
+      },
+      {
+        "instrumented_apply_ns": 5537,
+        "message": 13865,
+        "minor_faults": 1,
+        "updates": 221
+      },
+      {
+        "instrumented_apply_ns": 2981,
+        "message": 13878,
+        "minor_faults": 1,
+        "updates": 82
+      },
+      {
+        "instrumented_apply_ns": 3447,
+        "message": 13948,
+        "minor_faults": 1,
+        "updates": 33
+      },
+      {
+        "instrumented_apply_ns": 4446,
+        "message": 14017,
+        "minor_faults": 1,
+        "updates": 32
+      },
+      {
+        "instrumented_apply_ns": 4335,
+        "message": 14076,
+        "minor_faults": 1,
+        "updates": 81
+      },
+      {
+        "instrumented_apply_ns": 4319,
+        "message": 14153,
+        "minor_faults": 1,
+        "updates": 43
+      },
+      {
+        "instrumented_apply_ns": 3271,
+        "message": 14222,
+        "minor_faults": 1,
+        "updates": 41
+      },
+      {
+        "instrumented_apply_ns": 3650,
+        "message": 14296,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 4063,
+        "message": 14441,
+        "minor_faults": 1,
+        "updates": 34
+      },
+      {
+        "instrumented_apply_ns": 4424,
+        "message": 15096,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 4560,
+        "message": 15809,
+        "minor_faults": 1,
+        "updates": 36
+      },
+      {
+        "instrumented_apply_ns": 4753,
+        "message": 15987,
+        "minor_faults": 1,
+        "updates": 69
+      },
+      {
+        "instrumented_apply_ns": 9172,
+        "message": 16542,
+        "minor_faults": 1,
+        "updates": 51
+      },
+      {
+        "instrumented_apply_ns": 31498,
+        "message": 16571,
+        "minor_faults": 18,
+        "updates": 126
+      },
+      {
+        "instrumented_apply_ns": 4675,
+        "message": 16811,
+        "minor_faults": 1,
+        "updates": 38
+      },
+      {
+        "instrumented_apply_ns": 5345,
+        "message": 17621,
+        "minor_faults": 1,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 4404,
+        "message": 17648,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 4461,
+        "message": 17840,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 4753,
+        "message": 18849,
+        "minor_faults": 1,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 4559,
+        "message": 19312,
+        "minor_faults": 1,
+        "updates": 30
+      },
+      {
+        "instrumented_apply_ns": 4636,
+        "message": 19510,
+        "minor_faults": 1,
+        "updates": 32
+      },
+      {
+        "instrumented_apply_ns": 6330,
+        "message": 19945,
+        "minor_faults": 1,
+        "updates": 68
+      },
+      {
+        "instrumented_apply_ns": 4682,
+        "message": 20405,
+        "minor_faults": 1,
+        "updates": 28
+      },
+      {
+        "instrumented_apply_ns": 3153,
+        "message": 20412,
+        "minor_faults": 1,
+        "updates": 32
+      },
+      {
+        "instrumented_apply_ns": 6651,
+        "message": 20421,
+        "minor_faults": 1,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 3863,
+        "message": 20456,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 2991,
+        "message": 20461,
+        "minor_faults": 1,
+        "updates": 51
+      },
+      {
+        "instrumented_apply_ns": 2281,
+        "message": 20465,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 2476,
+        "message": 20469,
+        "minor_faults": 1,
+        "updates": 34
+      },
+      {
+        "instrumented_apply_ns": 2235,
+        "message": 20473,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 3183,
+        "message": 20483,
+        "minor_faults": 1,
+        "updates": 38
+      },
+      {
+        "instrumented_apply_ns": 3471,
+        "message": 20503,
+        "minor_faults": 1,
+        "updates": 18
+      },
+      {
+        "instrumented_apply_ns": 3690,
+        "message": 20564,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 4796,
+        "message": 20719,
+        "minor_faults": 1,
+        "updates": 79
+      },
+      {
+        "instrumented_apply_ns": 2879,
+        "message": 20722,
+        "minor_faults": 1,
+        "updates": 57
+      },
+      {
+        "instrumented_apply_ns": 2461,
+        "message": 20726,
+        "minor_faults": 1,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 2334,
+        "message": 20727,
+        "minor_faults": 1,
+        "updates": 30
+      },
+      {
+        "instrumented_apply_ns": 2254,
+        "message": 20729,
+        "minor_faults": 1,
+        "updates": 33
+      },
+      {
+        "instrumented_apply_ns": 2561,
+        "message": 20733,
+        "minor_faults": 1,
+        "updates": 22
+      },
+      {
+        "instrumented_apply_ns": 2436,
+        "message": 20736,
+        "minor_faults": 1,
+        "updates": 23
+      },
+      {
+        "instrumented_apply_ns": 2714,
+        "message": 20740,
+        "minor_faults": 1,
+        "updates": 31
+      },
+      {
+        "instrumented_apply_ns": 3005,
+        "message": 20751,
+        "minor_faults": 1,
+        "updates": 40
+      },
+      {
+        "instrumented_apply_ns": 3306,
+        "message": 20755,
+        "minor_faults": 1,
+        "updates": 44
+      },
+      {
+        "instrumented_apply_ns": 2657,
+        "message": 20761,
+        "minor_faults": 1,
+        "updates": 34
+      },
+      {
+        "instrumented_apply_ns": 3595,
+        "message": 20772,
+        "minor_faults": 1,
+        "updates": 25
+      },
+      {
+        "instrumented_apply_ns": 3091,
+        "message": 20775,
+        "minor_faults": 1,
+        "updates": 58
+      },
+      {
+        "instrumented_apply_ns": 2520,
+        "message": 20779,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 2298,
+        "message": 20787,
+        "minor_faults": 1,
+        "updates": 36
+      },
+      {
+        "instrumented_apply_ns": 2478,
+        "message": 20790,
+        "minor_faults": 1,
+        "updates": 47
+      },
+      {
+        "instrumented_apply_ns": 2047,
+        "message": 20794,
+        "minor_faults": 1,
+        "updates": 20
+      },
+      {
+        "instrumented_apply_ns": 2501,
+        "message": 20798,
+        "minor_faults": 1,
+        "updates": 31
+      },
+      {
+        "instrumented_apply_ns": 6890,
+        "message": 20804,
+        "minor_faults": 1,
+        "updates": 48
+      },
+      {
+        "instrumented_apply_ns": 2555,
+        "message": 20807,
+        "minor_faults": 1,
+        "updates": 39
+      },
+      {
+        "instrumented_apply_ns": 2950,
+        "message": 20815,
+        "minor_faults": 1,
+        "updates": 36
+      },
+      {
+        "instrumented_apply_ns": 2923,
+        "message": 20819,
+        "minor_faults": 1,
+        "updates": 40
+      },
+      {
+        "instrumented_apply_ns": 2268,
+        "message": 20822,
+        "minor_faults": 1,
+        "updates": 23
+      },
+      {
+        "instrumented_apply_ns": 2542,
+        "message": 20840,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 2396,
+        "message": 20843,
+        "minor_faults": 1,
+        "updates": 28
+      },
+      {
+        "instrumented_apply_ns": 2355,
+        "message": 20847,
+        "minor_faults": 1,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 2293,
+        "message": 20851,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 2705,
+        "message": 20856,
+        "minor_faults": 1,
+        "updates": 44
+      },
+      {
+        "instrumented_apply_ns": 2444,
+        "message": 20859,
+        "minor_faults": 1,
+        "updates": 38
+      },
+      {
+        "instrumented_apply_ns": 2590,
+        "message": 20867,
+        "minor_faults": 1,
+        "updates": 33
+      },
+      {
+        "instrumented_apply_ns": 4194,
+        "message": 20948,
+        "minor_faults": 1,
+        "updates": 32
+      },
+      {
+        "instrumented_apply_ns": 20249,
+        "message": 21068,
+        "minor_faults": 10,
+        "updates": 43
+      },
+      {
+        "instrumented_apply_ns": 21025,
+        "message": 21069,
+        "minor_faults": 10,
+        "updates": 64
+      },
+      {
+        "instrumented_apply_ns": 8207,
+        "message": 21123,
+        "minor_faults": 1,
+        "updates": 322
+      },
+      {
+        "instrumented_apply_ns": 4050,
+        "message": 21464,
+        "minor_faults": 1,
+        "updates": 75
+      },
+      {
+        "instrumented_apply_ns": 4616,
+        "message": 21797,
+        "minor_faults": 1,
+        "updates": 45
+      },
+      {
+        "instrumented_apply_ns": 3798,
+        "message": 22035,
+        "minor_faults": 1,
+        "updates": 56
+      },
+      {
+        "instrumented_apply_ns": 5290,
+        "message": 22656,
+        "minor_faults": 1,
+        "updates": 50
+      },
+      {
+        "instrumented_apply_ns": 2798,
+        "message": 22659,
+        "minor_faults": 1,
+        "updates": 44
+      },
+      {
+        "instrumented_apply_ns": 4389,
+        "message": 23049,
+        "minor_faults": 1,
+        "updates": 32
+      },
+      {
+        "instrumented_apply_ns": 3043,
+        "message": 23053,
+        "minor_faults": 1,
+        "updates": 25
+      },
+      {
+        "instrumented_apply_ns": 2146,
+        "message": 23054,
+        "minor_faults": 1,
+        "updates": 20
+      },
+      {
+        "instrumented_apply_ns": 2359,
+        "message": 23056,
+        "minor_faults": 1,
+        "updates": 43
+      },
+      {
+        "instrumented_apply_ns": 4522,
+        "message": 24018,
+        "minor_faults": 1,
+        "updates": 36
+      },
+      {
+        "instrumented_apply_ns": 4718,
+        "message": 24263,
+        "minor_faults": 1,
+        "updates": 49
+      },
+      {
+        "instrumented_apply_ns": 5839,
+        "message": 24365,
+        "minor_faults": 1,
+        "updates": 59
+      },
+      {
+        "instrumented_apply_ns": 27945,
+        "message": 25988,
+        "minor_faults": 0,
+        "updates": 1847
+      },
+      {
+        "instrumented_apply_ns": 22042,
+        "message": 26587,
+        "minor_faults": 8,
+        "updates": 518
+      },
+      {
+        "instrumented_apply_ns": 3795,
+        "message": 26737,
+        "minor_faults": 1,
+        "updates": 38
+      },
+      {
+        "instrumented_apply_ns": 4593,
+        "message": 26781,
+        "minor_faults": 1,
+        "updates": 46
+      },
+      {
+        "instrumented_apply_ns": 11530,
+        "message": 27036,
+        "minor_faults": 1,
+        "updates": 47
+      },
+      {
+        "instrumented_apply_ns": 2765,
+        "message": 27042,
+        "minor_faults": 1,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 4871,
+        "message": 28215,
+        "minor_faults": 1,
+        "updates": 33
+      },
+      {
+        "instrumented_apply_ns": 4797,
+        "message": 29458,
+        "minor_faults": 1,
+        "updates": 66
+      },
+      {
+        "instrumented_apply_ns": 4977,
+        "message": 30063,
+        "minor_faults": 1,
+        "updates": 73
+      },
+      {
+        "instrumented_apply_ns": 16451,
+        "message": 30151,
+        "minor_faults": 1,
+        "updates": 51
+      },
+      {
+        "instrumented_apply_ns": 4966,
+        "message": 30359,
+        "minor_faults": 1,
+        "updates": 106
+      },
+      {
+        "instrumented_apply_ns": 5012,
+        "message": 30538,
+        "minor_faults": 1,
+        "updates": 57
+      },
+      {
+        "instrumented_apply_ns": 4689,
+        "message": 32020,
+        "minor_faults": 1,
+        "updates": 30
+      },
+      {
+        "instrumented_apply_ns": 3962,
+        "message": 35145,
+        "minor_faults": 1,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 6197,
+        "message": 35440,
+        "minor_faults": 2,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 4625,
+        "message": 36625,
+        "minor_faults": 1,
+        "updates": 30
+      },
+      {
+        "instrumented_apply_ns": 5561,
+        "message": 37450,
+        "minor_faults": 1,
+        "updates": 34
+      },
+      {
+        "instrumented_apply_ns": 6773,
+        "message": 37628,
+        "minor_faults": 2,
+        "updates": 40
+      },
+      {
+        "instrumented_apply_ns": 6395,
+        "message": 37894,
+        "minor_faults": 1,
+        "updates": 124
+      },
+      {
+        "instrumented_apply_ns": 7313,
+        "message": 38096,
+        "minor_faults": 1,
+        "updates": 82
+      },
+      {
+        "instrumented_apply_ns": 4034,
+        "message": 38562,
+        "minor_faults": 1,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 6881,
+        "message": 38674,
+        "minor_faults": 1,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 3502,
+        "message": 38747,
+        "minor_faults": 1,
+        "updates": 49
+      },
+      {
+        "instrumented_apply_ns": 22508,
+        "message": 38901,
+        "minor_faults": 1,
+        "updates": 1238
+      },
+      {
+        "instrumented_apply_ns": 9158,
+        "message": 38915,
+        "minor_faults": 1,
+        "updates": 419
+      },
+      {
+        "instrumented_apply_ns": 4559,
+        "message": 39180,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 4458,
+        "message": 39248,
+        "minor_faults": 1,
+        "updates": 78
+      },
+      {
+        "instrumented_apply_ns": 4031,
+        "message": 39414,
+        "minor_faults": 1,
+        "updates": 27
+      },
+      {
+        "instrumented_apply_ns": 2979,
+        "message": 39424,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 141113,
+        "message": 40099,
+        "minor_faults": 65,
+        "updates": 303
+      },
+      {
+        "instrumented_apply_ns": 4224,
+        "message": 40424,
+        "minor_faults": 1,
+        "updates": 39
+      },
+      {
+        "instrumented_apply_ns": 5300,
+        "message": 40445,
+        "minor_faults": 2,
+        "updates": 70
+      },
+      {
+        "instrumented_apply_ns": 5092,
+        "message": 40641,
+        "minor_faults": 1,
+        "updates": 58
+      },
+      {
+        "instrumented_apply_ns": 5754,
+        "message": 40746,
+        "minor_faults": 1,
+        "updates": 138
+      },
+      {
+        "instrumented_apply_ns": 3142,
+        "message": 40753,
+        "minor_faults": 1,
+        "updates": 63
+      },
+      {
+        "instrumented_apply_ns": 6342,
+        "message": 40857,
+        "minor_faults": 3,
+        "updates": 38
+      },
+      {
+        "instrumented_apply_ns": 4625,
+        "message": 40861,
+        "minor_faults": 2,
+        "updates": 42
+      },
+      {
+        "instrumented_apply_ns": 8137,
+        "message": 40966,
+        "minor_faults": 3,
+        "updates": 58
+      },
+      {
+        "instrumented_apply_ns": 3938,
+        "message": 40969,
+        "minor_faults": 2,
+        "updates": 33
+      },
+      {
+        "instrumented_apply_ns": 8311,
+        "message": 41074,
+        "minor_faults": 4,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 3171,
+        "message": 41077,
+        "minor_faults": 1,
+        "updates": 69
+      },
+      {
+        "instrumented_apply_ns": 7355,
+        "message": 41183,
+        "minor_faults": 3,
+        "updates": 52
+      },
+      {
+        "instrumented_apply_ns": 9664,
+        "message": 41186,
+        "minor_faults": 3,
+        "updates": 41
+      },
+      {
+        "instrumented_apply_ns": 5783,
+        "message": 41293,
+        "minor_faults": 2,
+        "updates": 47
+      },
+      {
+        "instrumented_apply_ns": 5054,
+        "message": 41296,
+        "minor_faults": 2,
+        "updates": 76
+      },
+      {
+        "instrumented_apply_ns": 11652,
+        "message": 41400,
+        "minor_faults": 5,
+        "updates": 163
+      },
+      {
+        "instrumented_apply_ns": 8308,
+        "message": 41404,
+        "minor_faults": 4,
+        "updates": 167
+      },
+      {
+        "instrumented_apply_ns": 7055,
+        "message": 41508,
+        "minor_faults": 3,
+        "updates": 24
+      },
+      {
+        "instrumented_apply_ns": 5384,
+        "message": 41513,
+        "minor_faults": 3,
+        "updates": 43
+      },
+      {
+        "instrumented_apply_ns": 7288,
+        "message": 41617,
+        "minor_faults": 3,
+        "updates": 83
+      },
+      {
+        "instrumented_apply_ns": 5183,
+        "message": 41622,
+        "minor_faults": 3,
+        "updates": 29
+      },
+      {
+        "instrumented_apply_ns": 7869,
+        "message": 41725,
+        "minor_faults": 3,
+        "updates": 43
+      },
+      {
+        "instrumented_apply_ns": 21464,
+        "message": 41730,
+        "minor_faults": 2,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 16583,
+        "message": 42480,
+        "minor_faults": 1,
+        "updates": 35
+      },
+      {
+        "instrumented_apply_ns": 3755,
+        "message": 42983,
+        "minor_faults": 1,
+        "updates": 37
+      },
+      {
+        "instrumented_apply_ns": 14221,
+        "message": 44427,
+        "minor_faults": 1,
+        "updates": 674
+      },
+      {
+        "instrumented_apply_ns": 3104,
+        "message": 44432,
+        "minor_faults": 1,
+        "updates": 62
+      },
+      {
+        "instrumented_apply_ns": 25864,
+        "message": 45698,
+        "minor_faults": 5,
+        "updates": 91
+      }
+    ],
+    "prefault": false,
+    "total_minor_faults_around_apply": 674
+  },
+  {
+    "messages_with_faults_or_selected": [
+      {
+        "instrumented_apply_ns": 1563,
+        "message": 1,
+        "minor_faults": 0,
+        "updates": 16
+      },
+      {
+        "instrumented_apply_ns": 9211,
+        "message": 23,
+        "minor_faults": 0,
+        "updates": 584
+      },
+      {
+        "instrumented_apply_ns": 1302,
+        "message": 103,
+        "minor_faults": 0,
+        "updates": 46
+      },
+      {
+        "instrumented_apply_ns": 3828,
+        "message": 16571,
+        "minor_faults": 0,
+        "updates": 126
+      },
+      {
+        "instrumented_apply_ns": 28258,
+        "message": 25988,
+        "minor_faults": 0,
+        "updates": 1847
+      },
+      {
+        "instrumented_apply_ns": 9608,
+        "message": 40099,
+        "minor_faults": 0,
+        "updates": 303
+      }
+    ],
+    "prefault": true,
+    "total_minor_faults_around_apply": 0
+  }
+]

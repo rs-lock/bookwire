@@ -20,11 +20,19 @@ pub trait Venue: Send + Sync {
 pub struct VenueEvent {
     pub venue_update: VenueBookUpdate,
     pub timing: Option<UpdateTiming>,
+    pub exchange_timing: Option<ExchangeTiming>,
 }
 
 pub struct UpdateTiming {
     pub frame_ready_at: Instant,
     pub parsed_at: Instant,
+    pub frame_bytes: usize,
+    pub update_count: usize,
+}
+
+pub struct ExchangeTiming {
+    pub event_time: u64,
+    pub tx_time: u64,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]

@@ -9,6 +9,7 @@ pub fn add(left: u64, right: u64) -> u64 {
 
 pub mod capture;
 pub mod model;
+pub mod sbe;
 mod sequencer;
 pub mod sources;
 pub mod venue;

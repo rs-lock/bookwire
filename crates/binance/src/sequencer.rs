@@ -79,7 +79,6 @@ impl Sequencer {
     /// stored verbatim only when we buffer — otherwise it is untouched.
     pub fn on_delta(&mut self, first_u: u64, final_u: u64, prev_u: u64, raw: &str) -> Outcome {
         match self.state {
-          
             State::Connecting => Outcome::Ignore,
 
             // Pre-snapshot: buffer everything
@@ -109,7 +108,7 @@ impl Sequencer {
     }
 
     /// Splice the buffered deltas against a REST snapshot identified by its
-    /// `last_update_id` 
+    /// `last_update_id`
     pub fn on_snapshot(&mut self, last_update_id: u64) -> Splice {
         // Only meaningful while buffering; a snapshot arriving in any other state
         // is spurious (e.g. a late retry after we already went live).

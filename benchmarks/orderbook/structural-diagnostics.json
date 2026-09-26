@@ -1,0 +1,103 @@
+{
+  "note": "Untimed model of exact bitmap traversal; quantity page numbers are logical offsets assuming 4 KiB pages, not OS residency measurements.",
+  "state_sha256": "9170a0fe956f075d1891f169497d62cc279c48f53fcb08feb5726b6f330e1345",
+  "totals": {
+    "bitmap_words_read": 6534,
+    "best_deletes": 6323,
+    "inserts": 244091,
+    "deletes": 226658,
+    "new_quantity_pages": 664
+  },
+  "largest_bitmap_scans": [
+    {
+      "message": 25988,
+      "updates": 1847,
+      "bitmap_words_read": 186,
+      "best_deletes": 186,
+      "inserts": 315,
+      "deletes": 445,
+      "new_quantity_pages": 0
+    },
+    {
+      "message": 40564,
+      "updates": 1103,
+      "bitmap_words_read": 135,
+      "best_deletes": 134,
+      "inserts": 157,
+      "deletes": 266,
+      "new_quantity_pages": 0
+    },
+    {
+      "message": 16545,
+      "updates": 777,
+      "bitmap_words_read": 122,
+      "best_deletes": 121,
+      "inserts": 95,
+      "deletes": 228,
+      "new_quantity_pages": 0
+    },
+    {
+      "message": 26046,
+      "updates": 185,
+      "bitmap_words_read": 99,
+      "best_deletes": 99,
+      "inserts": 25,
+      "deletes": 104,
+      "new_quantity_pages": 0
+    },
+    {
+      "message": 44171,
+      "updates": 1113,
+      "bitmap_words_read": 93,
+      "best_deletes": 91,
+      "inserts": 184,
+      "deletes": 238,
+      "new_quantity_pages": 0
+    },
+    {
+      "message": 43906,
+      "updates": 461,
+      "bitmap_words_read": 91,
+      "best_deletes": 90,
+      "inserts": 77,
+      "deletes": 174,
+      "new_quantity_pages": 0
+    },
+    {
+      "message": 38900,
+      "updates": 1048,
+      "bitmap_words_read": 81,
+      "best_deletes": 81,
+      "inserts": 141,
+      "deletes": 214,
+      "new_quantity_pages": 0
+    },
+    {
+      "message": 13669,
+      "updates": 708,
+      "bitmap_words_read": 80,
+      "best_deletes": 80,
+      "inserts": 129,
+      "deletes": 150,
+      "new_quantity_pages": 0
+    },
+    {
+      "message": 14835,
+      "updates": 817,
+      "bitmap_words_read": 78,
+      "best_deletes": 77,
+      "inserts": 143,
+      "deletes": 152,
+      "new_quantity_pages": 0
+    },
+    {
+      "message": 35342,
+      "updates": 1421,
+      "bitmap_words_read": 74,
+      "best_deletes": 74,
+      "inserts": 214,
+      "deletes": 229,
+      "new_quantity_pages": 0
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+PASS: 20 uninstrumented runs; affinity 3,7 in every result; 49999 messages each; all run summaries match correctness.json; parse+normalize+apply == tick_to_book for every sample.

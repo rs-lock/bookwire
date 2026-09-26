@@ -1,0 +1,69 @@
+{
+  "allocator_instrumented": false,
+  "book_kind": "ladder",
+  "book_requested_heap_bytes": 0,
+  "correctness": {
+    "ask_levels": 8213,
+    "bid_levels": 9220,
+    "filtered_above": 61,
+    "filtered_below": 152606,
+    "out_of_range": 0,
+    "state_sha256": "9170a0fe956f075d1891f169497d62cc279c48f53fcb08feb5726b6f330e1345",
+    "top5_asks": [
+      [
+        7991890000000,
+        178200000
+      ],
+      [
+        7991900000000,
+        400000
+      ],
+      [
+        7991910000000,
+        100000
+      ],
+      [
+        7991970000000,
+        400000
+      ],
+      [
+        7991980000000,
+        12900000
+      ]
+    ],
+    "top5_bids": [
+      [
+        7991880000000,
+        675900000
+      ],
+      [
+        7991870000000,
+        8800000
+      ],
+      [
+        7991860000000,
+        2500000
+      ],
+      [
+        7991850000000,
+        200000
+      ],
+      [
+        7991830000000,
+        6600000
+      ]
+    ],
+    "updates": 2536222
+  },
+  "format": "json",
+  "major_faults_loop": 0,
+  "messages": 49999,
+  "minor_faults_loop": 1634,
+  "process_after_loop": "VmSize:\t  129088 kB\nVmHWM:\t  154444 kB\nVmRSS:\t  119400 kB\nCpus_allowed_list:\t3,7",
+  "process_before_book": "VmSize:\t  118152 kB\nVmHWM:\t  154444 kB\nVmRSS:\t  112492 kB\nCpus_allowed_list:\t3,7",
+  "stage_allocations": [
+    0,
+    0,
+    0
+  ]
+}

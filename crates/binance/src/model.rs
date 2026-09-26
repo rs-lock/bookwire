@@ -8,6 +8,13 @@ pub struct Frame {
 /// A USD-M futures `@depth` diff
 #[derive(Debug, Deserialize)]
 pub struct Depth {
+    /// `E` — first update id in this event.
+    #[serde(rename = "E")]
+    pub message_time: u64,
+    /// `T` — first update id in this event.
+    #[serde(rename = "T")]
+    pub transaction_time: u64,
+
     /// `U` — first update id in this event.
     #[serde(rename = "U")]
     pub first_u: u64,
@@ -23,7 +30,6 @@ pub struct Depth {
     #[serde(rename = "a")]
     pub asks: Vec<(Price, Size)>,
 }
-
 #[derive(Debug)]
 pub struct Price(pub i64);
 
@@ -184,4 +190,3 @@ impl std::fmt::Display for ParseError {
         }
     }
 }
-

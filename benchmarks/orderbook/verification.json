@@ -1,0 +1,15 @@
+{
+  "scope": "Working tree, including existing API and supervisor changes deliberately left unstaged by user request.",
+  "affinity": "3,7",
+  "checks": {
+    "taskset -c 3,7 cargo fmt --check": "passed",
+    "taskset -c 3,7 cargo test --workspace": "passed (35 tests)",
+    "taskset -c 3,7 cargo check --workspace": "passed",
+    "git diff --check": "passed after removing documentation trailing blank lines"
+  },
+  "notes": [
+    "Existing unused-variable/dead-code warnings remain.",
+    "Console log is local and ignored.",
+    "This is not a claim that the staged-only workspace passes: the excluded local supervisor main function is needed for its binary."
+  ]
+}

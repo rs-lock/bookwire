@@ -3,6 +3,7 @@ use std::ops::Sub;
 
 use sha2::{Digest, Sha256};
 
+pub mod price_ladder;
 pub mod traits;
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum Side {

@@ -3,7 +3,9 @@ use std::time::Instant;
 
 use async_trait::async_trait;
 use clob_core::{Price, Side, Size};
-use clob_venue::{BookUpdate, UpdateTiming, Venue, VenueBookUpdate, VenueError, VenueEvent};
+use clob_venue::{
+    BookUpdate, ExchangeTiming, UpdateTiming, Venue, VenueBookUpdate, VenueError, VenueEvent,
+};
 use tokio::task::JoinHandle;
 
 use crate::capture::Capture;
@@ -66,6 +68,7 @@ where
                 return Ok(VenueEvent {
                     venue_update: out,
                     timing: None,
+                    exchange_timing: None,
                 });
             }
 
@@ -96,6 +99,12 @@ where
                                 timing: Some(UpdateTiming {
                                     frame_ready_at,
                                     parsed_at,
+                                    frame_bytes: raw.len(),
+                                    update_count: d.bids.len() + d.asks.len(),
+                                }),
+                                exchange_timing: Some(ExchangeTiming {
+                                    event_time: d.message_time,
+                                    tx_time: d.transaction_time,
                                 }),
                             });
                         }
@@ -104,6 +113,10 @@ where
                             return Ok(VenueEvent {
                                 venue_update: VenueBookUpdate::Invalidate,
                                 timing: None,
+                                exchange_timing: Some(ExchangeTiming {
+                                    event_time: d.message_time,
+                                    tx_time: d.transaction_time,
+                                }),
                             });
                         }
                         Outcome::Buffer | Outcome::Ignore => continue,
@@ -198,7 +211,7 @@ where
                     let d = frame.data;
                     self.sequencer.on_delta(d.first_u, d.final_u, d.prev_u, &raw);
 
-            
+
                     if let Some(snap) = pending_snap.take() {
                         match self.sequencer.on_snapshot(snap.last_u) {
                             Splice::Live(frames) => {
